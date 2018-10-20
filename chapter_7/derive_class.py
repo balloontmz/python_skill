@@ -18,6 +18,7 @@ class IntTuple(tuple):
         super(IntTuple, self).__init__()
         # after
 
+
 if __name__ == "__main__":
     t = IntTuple([1, -1, "abc", ["x", "y"], 3, 6])
     print(t)
